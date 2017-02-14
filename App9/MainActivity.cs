@@ -14,9 +14,6 @@ namespace App9
             // Set our view from the "main" layout resource
             // SetContentView (Resource.Layout.Main);
 
-            int count = 0;
-
-
 
             base.OnCreate(bundle);
 
@@ -24,11 +21,10 @@ namespace App9
             SetContentView(Resource.Layout.Main);
 
             //get the button
-            Button button = FindViewById<Button>(Resource.Id.testButton);
+            
 
-            button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
 
-            //changes
+            //changed
         }
     }
 }
