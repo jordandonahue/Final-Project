@@ -23,9 +23,10 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView2" />
     <TextView
-        android:text="Medium Text"
+        android:text="year + make + model"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView3" />
+        android:id="@+id/textView3"
+        android:layout_marginLeft="50dp" />
 </LinearLayout>

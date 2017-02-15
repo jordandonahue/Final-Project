@@ -10,21 +10,39 @@ namespace App9
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
-
-            // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
+            // Set our view from the "main" layout resource
 
             var continueButton = FindViewById<Button>(Resource.Id.btnContinue);
             continueButton.Click += delegate
             {
-                SetContentView(Resource.Layout.Second);
+                StartActivity(typeof(vehicleInfoActivity));
 
             };
                       
-
         }
     }
-    
+    public class vehicleInfoActivity : Activity
+    {
+        protected override void OnCreate(Bundle savedInstanceState)
+        {
+            base.OnCreate(savedInstanceState);
+            SetContentView(Resource.Layout.Second);
+
+            var backButton = FindViewById<Button>(Resource.Id.btnBack);
+            backButton.Click += delegate
+            {
+                StartActivity(typeof(MainActivity));
+            };
+
+        }
+
+
+
+    }
+
+
+
 }
 
 
