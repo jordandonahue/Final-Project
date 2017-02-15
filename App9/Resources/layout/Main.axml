@@ -1,5 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent" />
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/linearLayout1">
+    <TextView
+        p1:text="Vehicle Selector"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/textView6"
+        p1:layout_marginLeft="10dp"
+        p1:paddingTop="10dp"
+        p1:paddingBottom="10dp" />
+    <TextView
+        p1:text="Choose Year:"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/textView4"
+        p1:paddingLeft="30dp"
+        p1:paddingTop="5dp"
+        p1:paddingBottom="5dp" />
+    <Spinner
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/spinner4"
+        p1:layout_marginLeft="15dp"
+        p1:layout_marginRight="15dp" />
+    <TextView
+        p1:text="Choose Make:"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/textView1"
+        p1:paddingLeft="30dp"
+        p1:paddingTop="5dp"
+        p1:paddingBottom="5dp" />
+    <Spinner
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/spinner2"
+        p1:layout_marginRight="15dp"
+        p1:layout_marginLeft="15dp" />
+    <TextView
+        p1:text="Choose Model:"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/textView2"
+        p1:paddingLeft="30dp"
+        p1:paddingBottom="5dp"
+        p1:paddingTop="5dp" />
+    <Spinner
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/spinner3"
+        p1:layout_marginLeft="15dp"
+        p1:layout_marginRight="15dp" />
+    <TextView
+        p1:text="Choose Engine Type:"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/textView5"
+        p1:paddingTop="5dp"
+        p1:paddingBottom="5dp"
+        p1:paddingLeft="30dp" />
+    <Spinner
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/spinner6"
+        p1:layout_marginLeft="15dp"
+        p1:layout_marginRight="15dp"
+        p1:layout_marginBottom="50dp" />
+    <Button
+        p1:text="Continue"
+        p1:layout_width="match_parent"
+        p1:layout_height="77.0dp"
+        p1:id="@+id/btnContinue"
+        p1:layout_margin="50dp"
+        p1:background="#39c904"
+        p1:layout_marginTop="100dp" />
+</LinearLayout>
