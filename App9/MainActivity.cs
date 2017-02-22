@@ -1,6 +1,7 @@
 ﻿using Android.App;
 using Android.Widget;
 using Android.OS;
+using System;
 
 namespace App9
 {
@@ -13,6 +14,13 @@ namespace App9
             SetContentView(Resource.Layout.Main);
             // Set our view from the "main" layout resource
 
+            Spinner yearSpinner = FindViewById<Spinner>(Resource.Id.Year);
+            yearSpinner.Prompt = "Choose your Year";
+            yearSpinner.ItemSelected += new EventHandler<AdapterView.ItemSelectedEventArgs>(yearSpinner_ItemSelected);
+           // var adapter = ArrayAdapter.CreateFromResource(this, Resource.String.year_array, Resource.Layout.Main);
+
+            adapter.SetDropDownViewResource(Android.Resource.Layout.SimpleSpinnerItem);
+
             var continueButton = FindViewById<Button>(Resource.Id.btnContinue);
             continueButton.Click += delegate
             {
@@ -20,6 +28,14 @@ namespace App9
 
             };
                       
+        }
+        private void yearSpinner_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
+        {
+            Spinner yearSpinner = (Spinner)sender;
+
+            string toast = string.Format("Selected Year: ", yearSpinner.GetItemAtPosition(e.Position));
+            Toast.MakeText(this, toast, ToastLength.Long).Show();
+
         }
     }
     public class vehicleInfoActivity : Activity
@@ -37,12 +53,9 @@ namespace App9
 
         }
 
-
-
+       
     }
-
-
-
+   
 }
 
 
