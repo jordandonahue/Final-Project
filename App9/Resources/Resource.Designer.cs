@@ -31,6 +31,27 @@ namespace App9
 		public partial class Array
 		{
 			
+			// aapt resource value: 0x7f050006
+			public const int accordEngine_array = 2131034118;
+			
+			// aapt resource value: 0x7f050005
+			public const int camryEngine_array = 2131034117;
+			
+			// aapt resource value: 0x7f050007
+			public const int civicEngine_array = 2131034119;
+			
+			// aapt resource value: 0x7f050004
+			public const int corollaEngine_array = 2131034116;
+			
+			// aapt resource value: 0x7f050002
+			public const int honda_array = 2131034114;
+			
+			// aapt resource value: 0x7f050001
+			public const int make_array = 2131034113;
+			
+			// aapt resource value: 0x7f050003
+			public const int toyota_array = 2131034115;
+			
 			// aapt resource value: 0x7f050000
 			public const int year_array = 2131034112;
 			
@@ -76,6 +97,15 @@ namespace App9
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f060009
+			public const int Engine = 2131099657;
+			
+			// aapt resource value: 0x7f060005
+			public const int Make = 2131099653;
+			
+			// aapt resource value: 0x7f060007
+			public const int Model = 2131099655;
+			
 			// aapt resource value: 0x7f060003
 			public const int Year = 2131099651;
 			
@@ -87,15 +117,6 @@ namespace App9
 			
 			// aapt resource value: 0x7f060000
 			public const int linearLayout1 = 2131099648;
-			
-			// aapt resource value: 0x7f060005
-			public const int spinner2 = 2131099653;
-			
-			// aapt resource value: 0x7f060007
-			public const int spinner3 = 2131099655;
-			
-			// aapt resource value: 0x7f060009
-			public const int spinner6 = 2131099657;
 			
 			// aapt resource value: 0x7f060004
 			public const int textView1 = 2131099652;
@@ -146,6 +167,27 @@ namespace App9
 		
 		public partial class String
 		{
+			
+			// aapt resource value: 0x7f040006
+			public const int accordEngine_input = 2130968582;
+			
+			// aapt resource value: 0x7f040005
+			public const int camryEngine_input = 2130968581;
+			
+			// aapt resource value: 0x7f040007
+			public const int civicEngine_input = 2130968583;
+			
+			// aapt resource value: 0x7f040004
+			public const int corollaEngine_input = 2130968580;
+			
+			// aapt resource value: 0x7f040002
+			public const int honda_input = 2130968578;
+			
+			// aapt resource value: 0x7f040001
+			public const int make_input = 2130968577;
+			
+			// aapt resource value: 0x7f040003
+			public const int toyota_input = 2130968579;
 			
 			// aapt resource value: 0x7f040000
 			public const int year_input = 2130968576;

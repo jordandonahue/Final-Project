@@ -5,7 +5,7 @@ using System;
 
 namespace App9
 {
-    [Activity(Label = "App9", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "Oil Change Info", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle bundle)
@@ -14,30 +14,18 @@ namespace App9
             SetContentView(Resource.Layout.Main);
             // Set our view from the "main" layout resource
 
-            Spinner yearSpinner = FindViewById<Spinner>(Resource.Id.Year);
-            yearSpinner.Prompt = "Choose your Year";
-            yearSpinner.ItemSelected += new EventHandler<AdapterView.ItemSelectedEventArgs>(yearSpinner_ItemSelected);
-           // var adapter = ArrayAdapter.CreateFromResource(this, Resource.String.year_array, Resource.Layout.Main);
-
-            adapter.SetDropDownViewResource(Android.Resource.Layout.SimpleSpinnerItem);
-
+            //continueButton 
             var continueButton = FindViewById<Button>(Resource.Id.btnContinue);
-            continueButton.Click += delegate
-            {
-                StartActivity(typeof(vehicleInfoActivity));
+            continueButton.Click += continueButton_click;
 
-            };
-                      
         }
-        private void yearSpinner_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
+        private void continueButton_click(object sender, System.EventArgs e)
         {
-            Spinner yearSpinner = (Spinner)sender;
-
-            string toast = string.Format("Selected Year: ", yearSpinner.GetItemAtPosition(e.Position));
-            Toast.MakeText(this, toast, ToastLength.Long).Show();
-
+            StartActivity(typeof(vehicleInfoActivity));
         }
-    }
+        
+
+            }
     public class vehicleInfoActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
@@ -50,13 +38,8 @@ namespace App9
             {
                 StartActivity(typeof(MainActivity));
             };
-
         }
-
-       
     }
-   
 }
-
 
 

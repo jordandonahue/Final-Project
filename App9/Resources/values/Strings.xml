@@ -2,6 +2,7 @@
 <resources>
   <string name="year_input">Choose a Year</string>
   <string-array name="year_array">
+    <item>Choose Your Year</item>
     <item>2017</item>
     <item>2016</item>
     <item>2015</item>
@@ -17,6 +18,55 @@
     <item>2005</item>
     <item>2004</item>
     <item>2003</item>
+    </string-array>
+
+<string name="make_input">Choose a make</string>
+  <string-array name="make_array">
+    <item>Choose Your Make</item>
+    <item>Honda</item>
+    <item>Toyota</item>
+    </string-array>
+
+
+<string name="honda_input">Choose a model</string>
+  <string-array name="honda_array">
+    <item>Choose Your Model</item>
+    <item>Civic</item>
+    <item>Accord</item>
+    </string-array>
+  
+<string name="toyota_input">Choose a model</string>
+  <string-array name="toyota_array">
+    <item>Choose Your Model</item>
+    <item>Corolla</item>
+    <item>Camry</item>
+    </string-array>
+
+<string name="corollaEngine_input">Choose an engine</string>
+  <string-array name="corollaEngine_array">
+    <item>Choose Your engine</item>
+    <item>1.8L 4-Cylinder</item>
+    </string-array>
+  
+<string name="camryEngine_input">Choose an engine</string>
+  <string-array name="camryEngine_array">
+    <item>Choose Your engine</item>
+    <item>2.5L 4-Cylinder</item>
+    <item>3.5L 6-Cylinder</item>
+    </string-array>
+
+  <string name="accordEngine_input">Choose an engine</string>
+  <string-array name="accordEngine_array">
+    <item>Choose Your engine</item>
+    <item>2.4L 4-Cylinder</item>
+    <item>3.5L 6-Cylinder</item>
+    </string-array>
+  
+  <string name="civicEngine_input">Choose an engine</string>
+  <string-array name="civicEngine_array">
+    <item>Choose Your engine</item>
+    <item>1.5L Turbo 4-Cylinder</item>
+    <item>2.0L 4-Cylinder</item>
     </string-array>
 
 </resources>

@@ -22,12 +22,12 @@
         p1:paddingLeft="30dp"
         p1:paddingTop="5dp"
         p1:paddingBottom="5dp" />
-  <Spinner
-      p1:layout_width="350.0dp"
-      p1:layout_height="wrap_content"
-      p1:id="@+id/Year"
-      p1:layout_marginLeft="15dp"
-      p1:layout_marginRight="15dp"/>
+    <Spinner
+        p1:layout_width="350.0dp"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/Year"
+        p1:layout_marginLeft="15dp"
+        p1:layout_marginRight="15dp" />
     <TextView
         p1:text="Choose Make:"
         p1:textAppearance="?android:attr/textAppearanceMedium"
@@ -40,7 +40,7 @@
     <Spinner
         p1:layout_width="351.0dp"
         p1:layout_height="wrap_content"
-        p1:id="@+id/spinner2"
+        p1:id="@+id/Make"
         p1:layout_marginRight="15dp"
         p1:layout_marginLeft="15dp" />
     <TextView
@@ -55,7 +55,7 @@
     <Spinner
         p1:layout_width="352.5dp"
         p1:layout_height="wrap_content"
-        p1:id="@+id/spinner3"
+        p1:id="@+id/Model"
         p1:layout_marginLeft="15dp"
         p1:layout_marginRight="15dp" />
     <TextView
@@ -70,7 +70,7 @@
     <Spinner
         p1:layout_width="353.0dp"
         p1:layout_height="wrap_content"
-        p1:id="@+id/spinner6"
+        p1:id="@+id/Engine"
         p1:layout_marginLeft="15dp"
         p1:layout_marginRight="15dp"
         p1:layout_marginBottom="50dp" />

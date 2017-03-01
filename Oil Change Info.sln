@@ -7,6 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Final Project", "App9\Final
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A32E1DAB-9B66-4EAB-855E-24BDADC651F7}"
 	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Desktop\final.txt = ..\..\..\..\Desktop\final.txt
 		readme.md = readme.md
 	EndProjectSection
 EndProject
